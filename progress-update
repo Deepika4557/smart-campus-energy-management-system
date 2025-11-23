@@ -1,0 +1,7 @@
+print("Smart Campus EMS - Progress Update")
+
+electricity = 150
+if electricity > 140:
+    print("High energy usage detected")
+else:
+    print("Normal usage")
