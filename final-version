@@ -1,0 +1,10 @@
+print("Smart Campus EMS - Final Version")
+
+data = {"electricity": 160, "temperature": 24}
+
+if data["electricity"] > 150:
+    print("⚠️ High electricity usage")
+else:
+    print("✔ Normal electricity usage")
+
+print("Temperature:", data["temperature"], "°C")
